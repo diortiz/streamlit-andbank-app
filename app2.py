@@ -62,27 +62,10 @@ df_filtrado["Fund Size"] = df_filtrado.apply(formatear_fund_size, axis=1)
 df_filtrado["Currency Hedged"] = df_filtrado["Currency Hedged"].apply(formatear_currency_hedged)
 
 # ---------------------
-# ORDENACIÓN DINÁMICA
+# ORDEN FIJO
 # ---------------------
-st.markdown("### 🔽 Ordenar tabla")
-columna_orden = st.selectbox(
-    "Seleccionar columna para ordenar:",
-    options=["Rentabilidad YTD", "Rentabilidad 1 año", "Fund Size"]
-)
-
-orden_descendente = st.checkbox("Orden descendente", value=True)
-
-# Convertir Fund Size a número para ordenación (crear columna oculta)
-df_ordenar = df.copy()
-df_ordenar["__Fund Size Num"] = pd.to_numeric(df_ordenar["Fund Size"], errors="coerce")
-
-# Seleccionar columna real para ordenar
-if columna_orden == "Fund Size":
-    df_filtrado["__Fund Size Num"] = df_ordenar["__Fund Size Num"]
-    df_filtrado = df_filtrado.sort_values("__Fund Size Num", ascending=not orden_descendente)
-    df_filtrado = df_filtrado.drop(columns=["__Fund Size Num"])
-else:
-    df_filtrado = df_filtrado.sort_values(columna_orden, ascending=not orden_descendente)
+if "Rentabilidad YTD" in df_filtrado.columns:
+    df_filtrado = df_filtrado.sort_values("Rentabilidad YTD", ascending=False)
 
 # ---------------------
 # MOSTRAR TABLA
