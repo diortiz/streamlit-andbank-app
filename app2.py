@@ -53,6 +53,7 @@ styled_df = (
     .format(format_dict)
     .set_properties(**{'text-align': 'left'})
     .set_table_styles([header_styles])
+)
 
 st.dataframe(styled_df, use_container_width=True)
 
