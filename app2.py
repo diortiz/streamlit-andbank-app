@@ -6,7 +6,7 @@ st.title("Focus List - Fund Selection")
 
 
 def cargar_datos():
-    return pd.read_excel("prueba.excel")
+    return pd.read_excel("prueba.xlsx")
 
 df = cargar_datos()
 
