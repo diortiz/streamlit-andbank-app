@@ -5,7 +5,7 @@ st.title("Focus List - Fund Selection")
 st.write("Estas viendo el embrión de una nueva la nueva Focus List.")
 
 def cargar_datos():
-  return pd.read_csv("prueba.csv")
+  return pd.read_excel("prueba.xlsx")
 
 df = cargar_datos()
 
