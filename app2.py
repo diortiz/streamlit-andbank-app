@@ -36,6 +36,16 @@ columnas_a_formatear = [
 def color_filas_alternas(x):
     return ['background-color: #f9f9f9' if i % 2 == 0 else 'background-color: white' for i in range(len(x))]
 
+header_styles = {
+    'selector': 'th',
+    'props': [
+        ('background-color', '#C00000'),
+        ('color', 'white'),
+        ('font-weight', 'bold'),
+        ('text-align', 'center')
+    ]
+}
+
 # Aplicar estilos: formato decimal + filas zebra
 styled_df = (
     df_filtrado.style
