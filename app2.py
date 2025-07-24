@@ -36,6 +36,16 @@ columnas_a_formatear = [
 def color_filas_alternas(x):
     return ['background-color: #f9f9f9' if i % 2 == 0 else 'background-color: white' for i in range(len(x))]
 
+header_styles = {
+    'selector': 'th',
+    'props': [
+        ('background-color', '#003366'),
+        ('color', 'white'),
+        ('font-weight', 'bold'),
+        ('text-align', 'center')
+    ]
+}
+
 # ✅ Función para formatear valores numéricos
 def formatear_valor(x):
     if pd.isna(x) or x == 0:
@@ -52,8 +62,8 @@ styled_df = (
     .apply(color_filas_alternas, axis=1)
     .format(format_dict)
     .set_properties(**{'text-align': 'left'})
-    .set_table_styles([header_styles])
-)
+    .set_table_styles([header_styles]))
+
 
 st.dataframe(styled_df, use_container_width=True)
 
