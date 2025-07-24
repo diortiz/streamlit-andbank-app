@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 
+
+
+st.set_page_config(page_title="Focus List - Fund Selection", layout ="wide")
 st.title("Focus List - Fund Selection")
 st.write("Estas viendo el embrión de una nueva la nueva Focus List.")
 
