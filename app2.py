@@ -19,7 +19,18 @@ else:
     df_filtrado = df
 
 # Lista de columnas numéricas que quieres formatear
-columnas_a_formatear = ["Rentabilidad semanal", "Rentabilidad mensual","Rentabilidad 3 meses","Rentabilidad YTD",""Rentabilidad 1 año", "Volatilidad 1 año","Máxima caída 1 año", "Rentabilidad 2024","Rentabilidad 3 años","Rentabilidad 5 años"]  # ajusta según tus columnas
+columnas_a_formatear = [
+    "Rentabilidad semanal",
+    "Rentabilidad mensual",
+    "Rentabilidad 3 meses",
+    "Rentabilidad YTD",
+    "Rentabilidad 1 año",
+    "Volatilidad 1 año",
+    "Máxima caída 1 año",
+    "Rentabilidad 2024",
+    "Rentabilidad 3 años",
+    "Rentabilidad 5 años"
+]  # ajusta según tus columnas
 
 # Crear función para aplicar color alterno (zebra)
 def color_filas_alternas(x):
