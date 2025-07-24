@@ -39,7 +39,7 @@ def color_filas_alternas(x):
 header_styles = {
     'selector': 'th',
     'props': [
-        ('background-color', '#C00000'),
+        ('background-color', '#c00000'),
         ('color', 'white'),
         ('font-weight', 'bold'),
         ('text-align', 'center')
