@@ -1,14 +1,23 @@
 import streamlit as st
+import pandas as pd
 
 st.title("Focus List - Fund Selection")
 st.write("Estas viendo el embrión de una nueva la nueva Focus List.")
 
-opciones = ["Elige una categoría", "Renta Variable","Renta Fija"]
+def cargar_datos():
+  return pd.read_excel("prueba.xlsx")
 
-seleccion = st.selectbox("Elige una opción:",opciones)
+df = cargar_datos()
 
-if seleccion != "Elige una categoría":
-  st.success(f"Has seleccionado: {seleccion}")
+opciones = ["Todas"]+ sorted(df["Categoría"].dropna().unique().tolist())
+
+seleccion = st.selectbox("Elige una categoría:",opciones)
+
+if seleccion != "Todas":
+  df_filtrado = df[df["Categoría"]== seleccion]
 
 else:
-  st.info("Por favor, selecciona una opción del menú.")
+  df_filtrado = df
+
+st.subheader(f"Fondos en categoría: {seleccion}")
+st.dataframe(df_filtrado)
