@@ -36,23 +36,23 @@ columnas_a_formatear = [
 def color_filas_alternas(x):
     return ['background-color: #f9f9f9' if i % 2 == 0 else 'background-color: white' for i in range(len(x))]
 
-header_styles = {
-    'selector': 'th',
-    'props': [
-        ('background-color', '#c00000'),
-        ('color', 'white'),
-        ('font-weight', 'bold'),
-        ('text-align', 'center')
-    ]
-}
+# ✅ Función para formatear valores numéricos
+def formatear_valor(x):
+    if pd.isna(x) or x == 0:
+        return ""
+    else:
+        return f"{x:.2f}"
 
-# Aplicar estilos: formato decimal + filas zebra
+# ✅ Diccionario de formato para columnas específicas
+format_dict = {col: formatear_valor for col in columnas_a_formatear if col in df_filtrado.columns}
+
+# ✅ Aplicar estilo
 styled_df = (
     df_filtrado.style
     .apply(color_filas_alternas, axis=1)
-    .format({col: "{:.2f}" for col in columnas_a_formatear if col in df_filtrado.columns})
+    .format(format_dict)
     .set_properties(**{'text-align': 'left'})
-)
+    .set_table_styles([header_styles])
 
 st.dataframe(styled_df, use_container_width=True)
 
