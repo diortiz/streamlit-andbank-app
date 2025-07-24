@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("🌐 Web Vacía - Tema Andbank")
-st.write("Esta es una plantilla mínima con el tema corporativo aplicado.")
+st.title("Focus List - Fund Selection")
+st.write("Estas viendo el embrión de una nueva la nueva Focus List.")
 
 opciones = ["Elige una categoría", "Renta Variable","Renta Fija"]
 
