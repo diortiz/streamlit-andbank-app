@@ -1,0 +1,247 @@
+﻿Categoría;Fondo;Fund Size;Base Currency;Currency Hedged;Retntabilidad semanal;Rentabilidad mensual;Rentabilidad 3 meses;Rentabilidad YTD;Rentabilidad 1 año;Volatilidad 1 año;Máxima caída 1 año;Return (Base Currency);Rentabilidad 3 años;Rentabilidad 5 años
+Mercado Monetario EUR;Candriam Sst MM Euro C € Acc; 1.515.030.566 € ; Euro ;0;0,04;0,16;0,54;1,21;2,85;0,11;-0,01;3,60;2,69;1,29
+Mercado Monetario EUR;JPM EUR lqdty LVNAV A (acc.); 29.582.426.954 € ;Euro;0;0,03;0,13;0,46;1,10;2,64;0,08;0,00;3,33;0,00;0,00
+Mercado Monetario EUR;Amundi Fds Cash EUR A2 EUR C; 5.526.707.762 € ;Euro;0;0,03;0,13;0,43;1,02;2,50;0,12;0,00;3,39;2,53;1,20
+Mercado Monetario EUR;Groupama Trésorerie IC; 7.791.780.535 € ;Euro;0;0,04;0,16;0,59;1,35;3,13;0,12;0,00;3,96;3,01;1,61
+Mercado Monetario EUR;Benchmark 1: EAA Fund EUR Money Market;;Euro;0;0,04;0,14;0,50;1,13;2,86;0,14;-0,04;3,64;2,68;1,35
+USD Money Market;abrdn Liquidity-US Dollar Fund A-2AccUSD; 2.818.327.140 € ;US Dollar;0;0,07;0,31;1,00;2,11;4,51;0,14;0,00;12,07;4,49;2,72
+USD Money Market;Amundi Fds Cash USD A2 USD C; 3.868.003.166 € ;US Dollar;0;0,09;0,37;1,04;2,16;4,62;0,19;0,00;12,21;4,73;2,87
+GBP Money Market;JPM GBP Standard Mny Mkt VNAV A (acc.); 982.751.411 € ;Pound Sterling;0;0,09;0,39;1,14;2,32;4,65;0,14;-0,01;9,89;4,13;2,46
+NOK Bond - Short Term;Nordea 1 - Norwegian Shrt-Term Bd BP NOK; 149.014.437 € ;Norwegian Krone;0;0,15;0,58;1,87;2,96;5,93;0,45;-0,41;1,43;5,44;3,49
+SEK Bond - Short Term;Nordea 1 - Swedish Short- Term Bd BP SEK; 232.892.609 € ;Swedish Krona;0;0,02;0,35;1,06;1,75;3,68;0,45;-0,20;1,43;3,75;1,92
+CHF Money Market;Pictet-Short-Term Money Market CHF P; 1.402.688.644 € ;Swiss Franc;0;-0,01;0,00;0,02;0,11;0,56;0,07;-0,01;0,25;0,87;0,20
+JPY Money Market;Pictet-Short-Term Money Market JPY R; 387.089.151 € ;Yen;0;0,01;0,03;0,07;0,09;0,04;0,07;-0,06;-4,45;-0,14;-0,18
+USD Money Market;Schroder ISF US Dollar Liqdty A Acc USD; 493.052.848 € ;US Dollar;0;0,07;0,32;0,96;2,05;4,49;0,14;0,00;12,06;4,34;2,49
+ EUR Government Bond;BGF Euro Bond A2; 1.755.092.812 € ;Euro;0;0,04;0,25;1,69;0,99;4,14;3,75;-3,48;1,94;1,26;-1,98
+US Government Bond;Franklin US Government A(acc)EUR-H1; 601.406.085 € ;Euro;Fully Hedged;-0,85;1,23;-0,24;1,86;1,86;5,29;-5,94;-1,71;-1,31;-3,26
+ EUR Government Bond;Amundi Fds Euro Govt Rspnb A EUR C; 553.614.687 € ;Euro;0;-0,15;-0,09;0,69;-0,07;3,37;4,56;-3,89;2,17;0,61;-2,53
+EUR Government Bond - S/T;Generali IS Euro Bond 1/3Y EX; 1.253.681.220 € ;Euro;0;0,03;0,22;0,85;1,84;4,77;1,35;-0,62;3,14;2,54;1,22
+EUR Government Bond - S/T;JPM Euro Govt Short Dur Bd D (acc) EUR; 1.541.516.206 € ;Euro;0;0,04;0,20;0,50;1,56;3,99;0,87;-0,46;2,89;1,67;0,48
+EUR Government Bond - S/T;Benchmark 1: EAA Fund EUR Government Bond - Short Term;0;Euro;0;0,03;-0,06;0,27;0,16;3,35;1,76;-1,71;3,14;1,35;-0,39
+EUR Ultra Short-Term Bond;DWS Euro Ultra Short Fixed Inc NC; 725.739.067 € ;Euro;0;0,07;0,28;0,75;1,51;3,51;0,20;-0,10;4,48;3,42;1,74
+EUR Ultra Short-Term Bond;DWS Floating Rate Notes LC; 10.707.277.665 € ;Euro;0;0,07;0,26;0,75;1,47;3,42;0,21;-0,15;4,46;3,60;1,95
+EUR Diversified Bond - S/T;DWS Invest ESG Euro Bonds (Short) NC; 727.340.893 € ;Euro;0;0,09;0,32;0,85;1,66;4,40;1,18;-0,57;3,17;2,68;0,88
+EUR Diversified Bond - S/T;Franklin Euro Short Dur Bd A(acc)EUR; 4.517.660.688 € ;Euro;0;0,09;0,19;0,84;1,51;3,95;1,31;-0,66;3,30;2,53;1,35
+EUR Corporate Bond - S/T;Evli Short Corporate Bond B; 1.844.613.169 € ;Euro;0;0,26;0,57;2,40;2,30;5,87;1,30;-1,20;5,47;5,38;2,64
+EUR Corporate Bond - S/T;Ostrum Credit Short Dur R/A EUR; 418.946.404 € ;Euro;0;0,21;0,48;1,80;1,97;5,11;1,21;-0,66;4,71;3,27;1,55
+EUR Corporate Bond - S/T;Nordea 1 - Low Dur Eurp Cov Bd BP EUR; 2.870.507.556 € ;Euro;0;0,10;0,05;0,80;2,48;4,69;1,01;-0,42;4,38;3,00;1,42
+ Diversified Bond - S/T;PIMCO GIS Low Dur Inc E EUR Hdg Acc; 2.634.385.844 € ;Euro;Fully Hedged;0,09;1,22;2,56;3,64;5,46;2,85;-1,78;4,09;4,73;2,09
+USD Ultra Short-Term Bond;PIMCO GIS US S/T E EUR Hedged Acc; 1.579.837.546 € ;Euro;Fully Hedged;0,00;0,10;0,68;1,17;2,77;0,66;-0,19;3,95;2,81;0,97
+USD Corporate Bond - S/T;UBAM Dynamic US Dollar Bond AC EUR; 1.369.236.860 € ;Euro;0;0,09;-2,46;-5,63;-9,41;-2,85;8,12;-11,54;14,36;1,12;2,73
+EUR Diversified Bond - S/T;MS INVF Short Maturity Euro Bond A; 2.518.201.487 € ;Euro;0;0,10;0,29;0,78;1,72;4,22;0,86;-0,44;3,29;2,23;0,79
+EUR Diversified Bond - S/T;Vontobel Euro Short Term Bond B EUR; 169.022.284 € ;Euro;0;0,11;0,33;0,73;1,53;3,96;0,98;-0,39;3,35;3,23;1,33
+Corporate Bond - S/T;Vontobel TwentyFour Sust S/T Bd Inc H €H; 1.723.975.227 € ;Euro;Fully Hedged;0,05;0,54;1,30;1,80;3,66;1,11;-0,60;3,52;2,88;0,68
+EUR Diversified Bond - S/T;Benchmark 1: EAA Fund EUR Diversified Bond - Short Term;0;Euro;0;0,12;0,33;1,09;1,55;3,99;0,63;-0,39;3,77;2,87;1,08
+EUR Corporate Bond;MS INVF Euro Corporate Bond A; 5.259.151.082 € ;Euro;0;0,37;0,78;2,65;2,13;5,81;2,48;-1,86;4,77;4,47;0,66
+Corporate Bond - S/T;Evli Nordic Corporate Bond B; 1.307.619.449 € ;Euro;0;0,19;0,71;2,22;2,47;6,29;1,35;-1,37;6,72;5,98;2,65
+EUR Corporate Bond;M&G European Credit Investment P EUR Acc; 7.605.446.813 € ;Euro;0;0,28;0,50;1,82;1,77;5,82;2,68;-1,94;5,56;4,01;0,00
+EUR Corporate Bond;Nordea 1 - European Covered Bond E EUR; 5.722.143.874 € ;Euro;0;0,07;-0,01;0,44;1,61;4,94;2,67;-1,69;2,33;0,53;-1,87
+EUR Corporate Bond;Vontobel TwentyFour Abs RetCrdt H H EUR; 4.154.808.742 € ;Euro;Fully Hedged;0,05;0,58;1,36;1,89;3,76;1,11;-0,57;3,60;2,82;0,61
+EUR Corporate Bond;abrdn Euro Corporate Bond Fund A Acc EUR; 1.252.096.759 € ;Euro;0;0,36;0,74;2,58;1,85;5,69;2,60;-1,95;4,38;3,51;-0,06
+EUR Corporate Bond;Invesco Euro Corporate Bond E EUR Acc; 3.326.922.476 € ;Euro;0;0,35;0,62;2,73;1,46;4,80;2,87;-2,48;3,61;3,22;0,13
+EUR Corporate Bond;Benchmark 1: EAA Fund Europe Bond;0;Euro;0;0,04;0,04;1,50;0,92;3,92;2,77;-2,65;2,44;1,76;-1,14
+USD IG Corporate Bond;Allianz US Investment Grd Crdt AT H2 EUR; 530.548.908 € ;Euro;Fully Hedged;-0,21;1,37;1,19;1,94;3,41;6,21;-5,30;1,18;0,00;0,00
+US MBS;AB Mortgage Income A2 EUR H; 1.119.985.056 € ;Euro;Fully Hedged;-0,13;0,45;1,42;1,95;4,33;1,40;-1,29;0,00;0,00;0,00
+US Diversified Bond;Amundi Fds US Bond A EUR H C; 1.777.603.659 € ;Euro;Fully Hedged;-0,75;1,29;0,45;2,70;3,13;5,36;-5,72;-0,15;0,00;-2,03
+US Corporate S/T;MFS Meridian Limited Maturity A1 EUR; 1.004.518.023 € ;Euro;0;0,36;-2,17;-5,67;-9,34;-2,71;7,62;-10,95;11,18;-0,94;0,67
+US Diversified Bond;Benchmark 1: EAA Fund USD Flexible Bond;0;US Dollar;0;-0,17;1,32;3,06;4,12;6,36;2,57;-2,40;11,19;5,08;1,96
+Subordinated debt;Amundi Fds Glb Subrdntd Bd A EUR C; 806.976.096 € ;Euro;0;0,29;1,40;4,68;3,82;12,35;2,88;-3,51;19,12;9,60;4,33
+Global Flexible Bond;BGF Fixed Income Global Opps A2 EUR Hdg; 6.343.859.989 € ;Euro;Fully Hedged;0,00;1,07;2,46;3,17;5,36;2,76;-2,05;2,75;2,67;0,85
+Global Flexible Bond;Carmignac Pf Flexible Bond A EUR Acc; 2.226.517.475 € ;Euro;0;0,42;0,72;1,38;4,05;5,97;2,03;-1,11;5,42;6,45;2,26
+Global Flexible Bond;Franklin Strategic Income A(acc)EUR-H1; 668.206.802 € ;Euro;Fully Hedged;-0,35;0,99;2,65;2,09;3,78;2,78;-2,76;2,13;2,95;-0,05
+Global Flexible Bond;MFS Meridian Global Oppc Bd AH1 EUR; 548.404.694 € ;Euro;Fully Hedged;-0,31;0,73;0,93;1,25;2,86;3,79;-3,76;0,52;1,78;-1,61
+Global Flexible Bond;MS INVF Global Fixed Income Opps AH EUR; 4.052.696.515 € ;Euro;Fully Hedged;-0,09;0,95;1,49;2,54;4,34;2,15;-1,73;2,81;3,07;0,48
+Global Flexible Bond;Muzinich Enhancedyield S-T HEUR Acc R; 7.962.895.905 € ;Euro;Fully Hedged;0,13;0,54;2,11;2,11;4,56;1,18;-1,25;4,30;3,76;1,76
+Global Flexible Bond;PIMCO GIS Income E EUR Hedged Acc; 84.357.880.982 € ;Euro;Fully Hedged;-0,50;1,39;2,06;3,42;4,98;3,56;-2,75;2,83;4,10;1,44
+Global Flexible Bond;Benchmark 1: EAA Fund Global Diversified Bond - EUR Hedged;0;Euro;0;-0,12;0,50;0,97;1,54;3,63;2,42;-2,40;1,59;1,17;-1,29
+Global Corporate Debt;Man GlInGd Opports D H EUR Acc; 4.220.366.641 € ;Euro;Fully Hedged;-0,16;1,35;2,42;4,20;7,96;3,08;-2,29;10,68;0,00;0,00
+Global Corporate Debt S/T;Muzinich Glbl Shrt DurInvmtGrdHEURAccR; 1.379.281.597 € ;Euro;Fully Hedged;0,08;0,47;1,30;1,93;4,22;0,85;-0,50;4,27;3,80;1,64
+Global Corporate Debt;PIMCO GIS GlInGd Crdt E EURH Acc; 7.093.510.959 € ;Euro;Fully Hedged;-0,44;1,08;1,53;2,06;3,59;4,06;-3,70;1,76;2,26;-1,99
+Global Corporate Debt;Benchmark 1: EAA Fund EUR Corporate Bond;0;Euro;0;0,34;0,67;2,42;1,96;5,64;2,23;-1,81;4,92;3,80;0,40
+USD High Yield S/T;AXAIMFIIS US Short Dur HY E Cap EUR H; 2.003.405.625 € ;Euro;Fully Hedged;-0,02;0,63;3,46;2,28;4,67;1,96;-2,18;3,67;4,06;1,59
+USD High Yield;AXAWF US High Yield Bonds A Cap EUR H; 2.238.500.754 € ;Euro;Fully Hedged;-0,04;1,04;5,91;3,08;6,47;3,24;-3,94;5,45;6,15;2,67
+EUR High Yield;Candriam Bds Euro High Yld N EUR Cap; 3.048.942.193 € ;Euro;0;0,39;0,41;4,02;2,16;6,26;2,34;-2,70;6,80;8,26;3,26
+Global FR High Yield;M&G (Lux) Glb Fl Rt HY A H EUR Acc; 2.712.557.885 € ;Euro;Fully Hedged;0,10;0,57;2,76;2,75;5,85;1,97;-2,46;6,63;8,90;5,93
+EUR High Yield S/T;ODDO BHF Euro Credit Short Dur CR-EUR; 1.923.837.234 € ;Euro;0;0,13;0,25;3,19;2,00;4,52;2,30;-1,92;4,43;5,38;2,78
+Global High Yield;PIMCO GIS Glb Hi Yld Bd E EURH Acc; 2.457.837.078 € ;Euro;Fully Hedged;0,43;0,91;4,82;2,62;5,78;2,92;-3,54;4,91;6,36;2,22
+Global High Yield;Robeco High Yield Bonds DH €; 5.010.223.694 € ;Euro;Fully Hedged;-0,16;0,80;4,85;2,53;4,82;3,67;-3,90;3,75;5,47;2,19
+Asian High Yield;PIMCO GIS Asia HY Bd E EUR H Acc; 1.250.422.489 € ;Euro;Fully Hedged;0,00;1,31;4,67;2,90;5,06;5,35;-5,74;10,70;5,97;0,00
+Global High Yield;Benchmark 1: EAA Fund Global High Yield Bond - EUR Hedged;0;Euro;0;0,17;0,97;4,66;2,65;6,49;2,36;-3,72;6,54;6,77;3,10
+EM Corporate Bond;abrdn-Emerg Mrkt Corp Bond A Acc HEUR; 858.982.752 € ;Euro;Fully Hedged;0,16;1,02;2,76;3,15;6,14;3,85;-2,82;5,95;5,04;0,59
+Frontier Markets Bond;abrdn-Frontier Mrkts Bond A Acc HEUR; 486.081.945 € ;Euro;Fully Hedged;0,75;2,91;10,40;5,54;11,09;6,92;-8,38;11,95;12,34;4,05
+RMB Bonds;Eurizon Bond Aggregate RMB R EUR Acc; 256.037.486 € ;Euro;0;-0,11;-1,94;-4,01;-8,34;-1,93;6,84;-10,05;8,97;-2,98;2,48
+Local EM Bond;GAM Multibond Local Emerging Bond EUR E; 224.580.431 € ;Euro;Fully Hedged;0,06;1,71;7,24;9,43;6,88;7,30;-10,72;-8,27;3,98;-1,65
+ Hard EM Corporate  S/T;Loomis Sayles S/T Em Mkts Bd R/A H-EUR; 721.900.734 € ;Euro;Fully Hedged;0,03;0,68;2,20;2,33;4,33;1,52;-1,61;4,27;2,81;0,19
+EM Diversified Bond;M&G (Lux) Em Mkts Bd A H EUR Acc; 2.578.317.249 € ;Euro;Fully Hedged;0,52;2,00;6,17;6,57;8,28;4,33;-4,33;1,17;7,93;0,85
+EM Diversified Bond;MS INVF Emerging Mkts Dbt Opps AH EUR; 1.273.082.766 € ;Euro;Fully Hedged;0,54;1,49;5,31;5,59;9,95;3,41;-3,94;0,00;0,00;0,00
+Hard EM Diversified Bond;Neuberger Berman EM DbtHrdCcy EUR M Acc; 2.506.542.081 € ;Euro;Fully Hedged;0,09;2,46;6,95;4,66;9,88;5,72;-6,42;9,38;8,75;-0,42
+Hard Latam Corp;Ninety One GSF Lat Am Corp Dbt A Acc € H; 674.692.904 € ;Euro;Fully Hedged;0,09;0,94;2,98;3,33;5,77;2,35;-2,82;5,01;4,93;2,50
+Asian Bonds;Fidelity Asian Bond A-Acc-USD; 713.286.675 € ;US Dollar;0;-0,40;0,87;1,21;2,79;4,93;3,92;-3,51;10,05;2,85;-0,55
+Indian Bonds;abrdn-Indian Bond A Acc H EUR; 71.547.081 € ;Euro;Fully Hedged;0,18;-1,08;0,15;2,73;2,29;4,44;-4,26;2,29;1,25;-0,11
+EM bonds sustainable;DPAM L Bonds Emerging Markets Sust B EUR; 3.509.435.206 € ;Euro;0;0,16;-0,30;2,01;-0,53;2,28;5,48;-7,83;2,45;5,36;2,76
+Hard EM Diversified Bond;Benchmark 1: EAA Fund Global Emerging Markets Bond - Local Currency;0;US Dollar;0;0,28;2,51;8,99;12,58;11,20;6,09;-8,43;2,35;8,61;2,05
+Global Convertibles Bond;M&G (Lux) Glb Cnvrts A H EUR Acc; 154.906.427 € ;Euro;Fully Hedged;0,26;2,39;11,79;8,37;11,83;8,11;-8,31;6,76;6,56;2,40
+Global Convertibles Bond;Benchmark 1: EAA Fund Convertible Bond - Global, EUR Hedged;0;Euro;0;0,09;1,13;9,10;5,56;9,04;5,72;-7,12;4,71;4,70;1,61
+Renta Fija Alternativa: Moderados;AXAWF Euro Credit Total Ret A Cap EUR; 4.014.092.743 € ;Euro;0;0,42;0,77;4,08;2,92;8,42;2,73;-2,58;8,54;10,58;4,85
+Renta Fija Alternativa: Moderados;Allianz Credit Opportunities AT EUR; 626.435.052 € ;Euro;0;0,17;0,37;1,84;2,14;5,18;0,63;-0,56;6,24;3,96;1,66
+Renta Fija Alternativa: Moderados;Candriam Bds Crdt Opps C EUR Cap; 670.242.927 € ;Euro;0;0,12;0,20;1,53;1,34;3,88;0,93;-0,75;4,32;5,08;1,71
+Renta Fija Alternativa: Moderados;Carmignac Sécurité AW EUR Acc; 5.109.793.507 € ;Euro;0;0,27;0,54;1,35;1,83;4,61;0,97;-0,54;5,28;4,65;1,92
+Renta Fija Alternativa: Moderados;M&G (Lux) Optimal Income A EUR Acc; 8.653.930.810 € ;Euro;Fully Hedged;-0,35;0,53;0,91;2,94;3,21;5,50;-5,68;-0,43;4,05;0,98
+Renta Fija Alternativa: Moderados;DNCA Invest Alpha Bonds A EUR; 18.531.437.691 € ;Euro;0;-0,20;0,43;2,01;3,03;3,76;2,35;-2,49;3,83;5,78;5,37
+Deuda Financiera;Algebris Financial Credit R EUR Acc; 14.940.595.149 € ;Euro;0;0,34;1,01;5,50;3,38;7,27;4,12;-4,62;8,36;8,20;3,98
+Deuda Financiera;Amundi Fds Glb Subrdntd Bd A EUR C; 806.976.096 € ;Euro;0;0,29;1,40;4,68;3,82;12,35;2,88;-3,51;19,12;9,60;4,33
+Cautious Allocation European;Invesco Pan European Hi Inc E EUR Acc; 6.787.174.612 € ;Euro;0;0,25;0,04;4,97;2,54;4,15;4,07;-5,68;4,68;5,81;2,97
+Cautious Allocation Global;Nordea 1 - Stable Return BP EUR; 2.841.885.732 € ;Euro;0;-0,10;-0,37;2,72;0,38;5,17;8,27;-6,41;1,84;0,53;1,45
+Cautious Allocation Global;DWS Concept DJE Alpha Renten Global LC; 589.646.822 € ;Euro;0;-0,06;0,51;2,45;0,33;3,77;3,83;-4,79;6,29;2,93;1,65
+Cautious Allocation Global;Ethna-AKTIV SIA-T; 1.980.823.451 € ;Euro;0;0,76;1,92;8,04;2,84;5,03;8,63;-9,00;6,44;4,32;4,17
+Cautious Allocation Global;Amundi Fds Global MA Cnsrv A EUR C; 2.054.338.247 € ;Euro;0;-0,09;0,73;6,72;2,76;5,44;4,71;-5,93;4,12;2,66;1,69
+Cautious Allocation Global;Benchmark 1: EAA Fund EUR Cautious Allocation - Global;0;Euro;0;0,18;0,26;4,03;0,88;3,66;2,93;-4,88;5,37;3,34;1,58
+Moderate Allocation - Global;abrdn-Diversified Growth A Acc EUR; 224.231.395 € ;Euro;0;1,05;2,43;10,28;5,09;7,50;6,55;-7,03;3,76;5,01;4,70
+Emerging Markets Allocation;Carmignac Pf Emerg Patrim A EUR Acc; 299.372.660 € ;Euro;0;0,25;0,59;5,94;2,68;2,20;7,04;-7,45;1,88;5,51;2,49
+Flexible Allocation - Global;DWS Concept Kaldemorgen EUR LC; 14.576.550.583 € ;Euro;0;0,16;-0,39;4,57;1,08;1,90;6,37;-6,97;5,30;3,24;3,49
+Aggressive Allocation;First Eagle Amundi International AE-C; 6.091.725.343 € ;Euro;0;0,24;-1,40;7,25;-1,82;4,30;11,49;-13,07;16,96;6,88;8,53
+Flexible Allocation - Global;FvS Multiple Opportunities II ET; 10.291.752.394 € ;Euro;0;0,59;-1,84;2,87;-1,83;2,65;7,73;-9,91;8,91;3,76;2,96
+Flexible Allocation - Global;M&G (Lux) Dynamic Allocation A EUR Acc; 1.785.785.623 € ;Euro;0;-0,21;0,31;6,02;4,92;4,14;7,79;-7,67;2,61;5,42;4,96
+Moderate Allocation;MFS Meridian Prudent Capital A1 EUR; 2.507.271.412 € ;Euro;0;0,59;-1,85;5,56;1,32;7,47;9,86;-8,59;11,04;5,20;3,67
+Moderate Allocation;R-co Valor C EUR; 7.000.726.329 € ;Euro;0;1,27;1,90;14,50;3,52;10,98;13,37;-15,58;16,71;10,69;9,62
+Moderate Allocation - Global;Sextant Grand Large A; 499.673.177 € ;Euro;0;0,17;-0,02;5,07;0,37;2,32;4,82;-6,28;1,18;3,13;2,82
+Moderate Allocation 60/40;Capital Group Glob Alloc (LUX) B; 1.428.175.447 € ;Euro;0;0,20;-0,63;5,10;-4,67;2,00;11,22;-13,70;15,74;3,44;4,78
+Flexible Allocation - Global;Trojan (Ireland) I EUR Acc; 659.246.444 € ;Euro;Fully Hedged;0,76;-0,13;2,15;1,78;3,61;5,02;-3,54;4,27;1,53;2,19
+Flexible Allocation - Global;Benchmark 1: EAA Fund EUR Flexible Allocation - Global;0;Euro;0;0,31;0,19;8,19;1,11;3,85;5,05;-9,68;8,65;4,98;3,90
+Swiss Equity;AXAWF Switzerland Eq A Cap EUR; 283.716.481 € ;Euro;0;0,02;-2,00;14,42;4,82;4,09;13,50;-15,86;4,27;5,84;6,68
+UK equity;BGF United Kingdom A2 GBP; 202.314.336 € ;Euro;0;-0,55;-2,56;12,05;-0,31;5,01;16,00;-17,84;15,52;9,28;6,07
+Germany Equity;DWS Deutschland LC; 3.636.650.247 € ;Euro;0;-0,02;-1,26;21,30;18,25;21,96;19,17;-17,35;8,21;17,93;8,92
+Spain Equity;Fidelity Iberia A-Acc-EUR; 239.175.102 € ;Euro;0;1,58;0,48;22,42;23,34;26,19;14,28;-10,70;17,23;22,06;13,65
+Italy Equity;Fidelity Italy A-Acc-EUR; 404.598.959 € ;Euro;0;1,08;0,68;28,92;23,73;23,53;18,27;-17,30;10,75;23,34;17,71
+Nordic Equity;Nordea 1 - Nordic Equity BP EUR; 209.737.465 € ;Euro;0;0,91;-1,81;13,37;7,01;0,29;15,29;-15,00;1,37;5,45;8,23
+Spain Equity;Magallanes Iberian Equity M FI; 161.564.402 € ;Euro;0;1,71;1,67;22,52;27,18;32,42;11,84;-10,37;18,39;20,43;18,57
+France Equity;Oddo BHF Avenir CR-EUR; 491.833.185 € ;Euro;0;-0,31;0,89;16,23;3,43;-5,27;14,79;-18,78;-7,99;3,23;3,63
+Eurozone Equity;Janus Henderson Hrzn Euroland A2 EUR; 850.380.400 € ;Euro;0;-0,38;-0,73;20,33;14,53;12,53;16,77;-15,07;9,10;16,91;12,05
+Eurozone Equity;Benchmark 1: MSCI Euro NR EUR;0;Euro;0;0,65;-1,23;17,12;12,01;10,26;16,33;-15,75;8,96;16,47;11,94
+Europe Large-Cap Value Equity;BGF European Value A2; 1.316.263.289 € ;Euro;0;-0,06;-2,06;17,10;10,91;13,82;16,47;-15,33;12,06;14,79;13,31
+Europe Flex-Cap Growth Equity;BSF European Opps Extension A2 EUR; 570.668.040 € ;Euro;0;0,21;-2,55;20,15;4,81;0,64;18,37;-19,29;6,25;9,80;10,94
+Europe Flex-Cap Growth Equity;Comgest Growth Europe EUR R Acc; 4.374.906.864 € ;Euro;0;0,51;-3,22;11,01;-2,35;-9,32;16,42;-19,32;-0,05;5,72;6,53
+ Europe Large-Cap Blend Equity;Eleva European Selection A2 EUR acc; 7.443.275.280 € ;Euro;0;0,28;-1,37;18,18;6,60;6,82;15,16;-17,38;11,36;12,54;11,34
+ Europe Large-Cap Value Equity;Invesco Pan European Equity A EUR Acc; 997.899.586 € ;Euro;0;0,04;-1,28;18,17;10,34;4,21;17,73;-17,19;-1,86;11,00;11,14
+Europe Large-Cap Blend Equity;JPM Europe Equity Plus D perf (acc) EUR; 3.127.573.336 € ;Euro;0;0,23;-2,29;18,05;13,54;14,38;15,46;-14,78;16,59;16,16;13,48
+Europe Large-Cap Value Equity;Magallanes European Equity M FI; 1.135.100.502 € ;Euro;0;1,62;0,52;22,62;13,00;5,64;18,82;-18,70;-1,92;14,19;16,17
+Europe Large-Cap Blend Equity;Ostrum Europe MinVol R/A EUR; 256.323.276 € ;Euro;0;0,28;-2,43;11,84;8,96;9,62;11,09;-9,76;8,21;6,59;6,32
+Europe Large-Cap Blend Equity;Benchmark 1: MSCI Europe NR EUR;0;Euro;0;0,45;-1,88;15,85;9,03;7,54;14,44;-16,30;8,59;12,19;10,97
+Europe Blend Small/Mid Equity;Bellevue (Lux) Bellevue Entrpr Eurp Sm B; 141.844.185 € ;Euro;0;1,11;2,36;25,61;19,57;8,43;15,56;-15,24;2,80;12,73;8,89
+Europe Growth Mid-Cap Equity;Echiquier Agenor SRI Mid Cap Europe A; 1.495.508.802 € ;Euro;0;0,09;-1,27;17,32;4,33;0,44;15,15;-17,69;0,86;2,70;0,67
+Europe Grwoth Mid-Cap Equity;Groupama Avenir Euro NC; 437.973.826 € ;Euro;0;-0,12;1,11;23,47;8,91;0,53;18,47;-19,77;-6,30;3,03;2,53
+Europe Growth Mid-Cap Equity;Lonvia Mid-Cap Europe Retail; 103.158.898 € ;Euro;0;-0,29;-0,84;23,22;3,54;0,86;19,40;-21,86;-2,47;0,64;0,00
+Europe Value Small-Cap Equity;Alken Small Cap Europe A; 507.654.465 € ;Euro;0;-0,50;1,84;33,09;42,60;47,63;17,73;-12,96;13,51;25,52;26,42
+Europe Blend Small-Cap Equity;Sextant PME A; 379.258.209 € ;Euro;0;0,22;0,77;18,64;12,07;4,90;13,62;-12,09;-4,44;6,28;9,33
+Europe Blend Small-Cap Equity;Benchmark 1: MSCI Europe Small Cap NR EUR;0;Euro;0;0,07;0,18;23,07;11,54;9,68;15,63;-15,27;5,65;9,36;9,01
+US Growth Large-Cap;Amundi Fds US Eq Fundm Gr A EUR H C; 3.115.763.558 € ;Euro;Fully Hedged;0,70;3,58;25,17;6,30;4,70;20,62;-20,89;14,55;15,74;11,40
+US Growth Large-Cap;Brown Advisory US Equity Growth € A Hdg; 470.526.383 € ;Euro;Fully Hedged;0,19;2,60;26,67;6,21;9,33;21,55;-22,36;13,86;12,09;6,00
+US Growth Large-Cap;Brown Advisory US Sust Gr EUR A Acc Hdg; 3.756.806.231 € ;Euro;Fully Hedged;0,54;3,43;29,62;4,38;6,94;24,22;-25,32;17,11;14,01;0,00
+US Growth Large-Cap;FTGF CB US Lg Cp Gr A EURH Acc; 1.655.705.469 € ;Euro;Fully Hedged;-0,11;2,39;24,72;3,96;8,49;22,28;-21,50;23,58;18,44;10,34
+US Growth Large-Cap;T. Rowe Price US Blue Chip Eq An EUR; 825.723.274 € ;Euro;Fully Hedged;0,68;3,26;31,90;5,43;12,82;23,82;-23,25;33,22;21,21;9,75
+US Value Large-Cap;Robeco BP US Premium Equities DH €; 5.015.050.745 € ;Euro;Fully Hedged;0,89;3,55;16,72;6,79;10,67;16,74;-15,33;6,32;8,70;11,90
+US Value Large-Cap;Neuberger Berman US Lrg Cp Val EURAAcc; 753.250.022 € ;Euro;Fully Hedged;1,12;3,44;14,57;6,16;8,12;14,21;-14,76;7,71;0,00;0,00
+US Blend Large-Cap;AB Select US Equity A EUR H; 4.950.951.619 € ;Euro;Fully Hedged;0,31;3,84;21,36;6,97;12,04;18,25;-17,55;22,46;14,20;13,36
+US Blend Large-Cap;Ossiam Shiller Bcly CAPE® US R/A H-EUR; 4.370.310 € ;Euro;Fully Hedged;0,75;2,43;11,72;3,12;8,76;15,81;-14,27;0,00;0,00;0,00
+US Blend Large-Cap;Findlay Park American A EUR Acc; 8.874.447.456 € ;Euro;0;0,43;-1,53;8,03;-8,37;-2,43;18,36;-21,03;17,54;0,00;0,00
+US Growth Large-Cap;Benchmark 1: S&P 500 NR Hdg EUR;0;Euro;Fully Hedged;0,37;3,54;22,40;5,42;10,93;19,68;-18,76;22,47;15,41;13,43
+US Value Small/Micro;FTGF RY US SmCp Opp A EURH Acc; 721.278.614 € ;Euro;Fully Hedged;2,53;5,56;29,51;-1,02;5,72;27,68;-30,59;7,49;8,14;13,93
+US Growth Small;Neuberger Berman US Sm Cap EUR Adv Acc H; 560.347.951 € ;Euro;Fully Hedged;1,47;1,77;16,16;-4,54;0,17;21,80;-28,28;6,04;3,28;4,75
+US Blend Small;T. Rowe Price US Smlr Cm Eq An (EUR); 2.896.480.088 € ;Euro;Fully Hedged;2,22;4,36;22,19;-0,94;4,85;21,66;-26,36;4,38;6,17;6,90
+US Blend Small;Benchmark 1: Russell 2000 NR EUR;0;Euro;0;1,81;0,85;14,11;-11,96;1,74;26,62;-30,98;18,53;3,82;9,54
+Global Large-Cap Quality Growth ;Incometric Nartex Equity R Cap EUR Acc; 425.711.862 € ;Euro;0;0,42;-1,32;9,79;-6,73;-0,14;16,07;-19,85;19,85;9,16;0,00
+Global Large-Cap Blend;JPM Global Select Equity A (acc) EUR; 9.142.709.039 € ;Euro;0;0,91;0,67;14,37;-5,64;-1,58;18,27;-20,64;22,68;11,74;13,40
+Global Large-Cap Growth;Capital Group New Pers (LUX) B; 15.189.474.550 € ;Euro;0;0,13;-0,13;17,61;-1,67;4,28;19,61;-21,83;22,83;10,67;10,38
+Global Equity Income;BNY Mellon Global Equity Inc EUR A Acc; 485.520.697 € ;Euro;0;0,80;0,03;8,82;-0,06;7,67;14,47;-17,07;12,93;6,52;9,65
+Global Equity Income;FF - Global Equity Inc ESG A-Acc-EUR; 835.099.746 € ;Euro;0;0,50;-2,97;8,63;3,00;12,37;12,62;-12,17;20,60;11,59;11,55
+Global Quality Value;Sextant Quality Focus A; 288.676.667 € ;Euro;0;0,47;-2,39;10,31;-0,88;9,76;11,73;-13,54;20,18;0,00;0,00
+Global Large-Cap Quality Growth;Fundsmith Equity T EUR Acc; 7.176.674.703 € ;Euro;0;0,47;-1,19;11,92;-4,80;-2,04;17,58;-20,89;13,61;6,12;7,27
+Global Large-Cap Blend;MS INVF Global Quality A; 2.176.945.725 € ;Euro;0;0,95;-2,40;6,90;-6,41;2,29;16,08;-17,32;16,86;5,51;6,77
+Global Large-Cap Value;Robeco BP Global Premium Eqs D EUR; 4.881.902.929 € ;Euro;0;0,18;-0,93;15,59;7,66;12,13;12,44;-13,70;14,39;12,42;15,60
+Global Large-Cap Blend;Ostrum Global MinVol Eq R/A EUR; 285.327.874 € ;Euro;0;0,21;-1,74;7,00;0,93;8,14;9,35;-10,24;12,26;3,72;5,63
+Global Large-Cap Value;Nordea 1 - Global Stable Equity E EUR; 2.023.351.419 € ;Euro;0;0,53;-1,67;4,65;-3,48;3,18;14,52;-13,62;8,55;2,52;7,35
+Global Large-Cap Blend sust.;Robeco Global Stars Equities D EUR; 2.005.028.657 € ;Euro;0;0,02;-1,31;11,61;-7,83;-0,56;17,20;-21,59;28,27;9,58;11,18
+Global Large-Cap Blend;Benchmark 1: MSCI World NR EUR;0;Euro;0;0,23;0,09;15,44;-3,21;5,36;17,06;-20,29;26,60;12,05;13,28
+Growth Small/Mid Growth;CT (Lux) Glb Smlr Coms AU; 1.379.632.863 € ;Euro;0;-0,05;-1,83;12,03;-15,48;-10,56;18,79;-29,09;5,92;-0,35;2,06
+Growth Small/Mid Blend;Janus Henderson Hrzn Glb SC A2 EUR; 907.951.523 € ;Euro;0;0,72;1,01;20,59;-0,53;12,43;20,89;-21,36;26,65;15,36;16,14
+Growth Small/Mid Blend;Benchmark 1: MSCI World Small Cap NR EUR;0;Euro;0;1,05;0,76;16,97;-4,24;6,54;17,67;-22,21;15,37;6,56;10,25
+Japan Value Large/Mid;Arcus Japan B Acc EUR H; 1.871.574.023 € ;Euro;Fully Hedged;0,14;3,25;24,03;2,97;5,09;25,33;-20,83;27,23;0,00;0,00
+Japan Blend Large-Cap;abrdn-Japan Sustainable Eqty A Acc HEUR; 405.784.209 € ;Euro;Fully Hedged;-1,68;2,94;28,31;5,87;2,46;26,66;-22,91;22,01;16,02;10,90
+Japan Blend Large-Cap;Benchmark 1: MSCI Japan NR EUR;0;Euro;0;-2,69;-2,19;15,99;-4,08;-0,90;27,57;-19,29;15,54;8,40;7,02
+Japan Blend Small/Mid;BNP Paribas Japan Sm Cp Cl H Eur C; 710.539.948 € ;Euro;Fully Hedged;0,11;3,75;28,36;6,58;12,75;23,08;-19,66;26,78;20,95;15,11
+Japan Blend Small/Mid;Benchmark 1: MSCI Japan Small Cap NR LCL;0;Multiple Currencies;0;-0,30;3,12;23,23;6,82;9,65;21,85;-19,29;16,35;16,05;13,34
+EM Large Growth;Carmignac Emergents A EUR Acc; 896.311.522 € ;Euro;0;-0,27;0,00;16,45;4,87;3,13;16,16;-16,83;4,63;4,43;3,87
+EM Large Blend;Robeco QI EM Active Equities D €; 4.225.800.136 € ;Euro;0;0,00;1,48;17,10;2,24;5,12;16,60;-17,70;19,90;10,35;9,56
+EM Large Value;BSF Emerging Markets Eq Strats E2 EUR; 696.073.453 € ;Euro;0;2,29;2,98;9,85;7,13;8,71;19,83;-16,59;3,90;15,05;10,12
+Frontier Markets Equity;Schroder ISF Frntr Mkts Eq A USD Acc; 569.583.375 € ;US Dollar;0;1,63;5,40;18,77;12,15;11,49;11,39;-11,10;25,06;19,10;16,98
+Latam Equity;abrdn-Latin American Eqty A Acc HEUR; 10.199.995 € ;Euro;Fully Hedged;0,00;0,00;0,00;0,00;0,00;19,13;0,00;-31,66;0,00;0,00
+Brazil Equity;BNY Mellon Brazil Equity EUR H Acc H; 33.694.425 € ;Euro;Fully Hedged;-0,76;3,83;26,84;38,72;16,45;26,73;-24,53;-27,13;7,93;4,01
+Brazil Equity;DWS Invest Brazilian Equities NC; 95.823.666 € ;Euro;0;1,51;2,17;18,92;24,67;6,13;25,33;-21,05;-32,30;2,92;5,40
+Asian Equity;Fidelity Asian Special Sits A-Acc-EUR H; 1.426.630.510 € ;Euro;Fully Hedged;0,31;2,39;17,12;8,17;5,65;17,62;-16,93;10,74;4,47;2,04
+Asian Equity;Schroder ISF Asian Opports A Acc EUR; 4.694.991.253 € ;Euro;0;0,01;-0,16;12,48;-3,82;-0,18;20,09;-21,92;15,56;0,16;2,55
+China A shares;abrdn-China A Share Sust Eq A Acc HEUR; 637.910.843 € ;Euro;Fully Hedged;0,25;1,98;11,34;2,93;15,87;23,99;-21,58;0,77;-12,24;-7,83
+China Diversified Shares;Ninety One GSF All China Eq A Acc EUR H; 341.225.845 € ;Euro;Fully Hedged;-0,52;1,61;17,30;13,02;25,02;25,55;-17,51;18,73;-1,09;-4,86
+Taiwan Large-Cap;Schroder ISF Taiwanese Equity A Acc USD; 145.988.083 € ;US Dollar;0;1,71;7,45;29,85;7,65;2,52;27,45;-30,74;18,88;13,21;10,22
+India Growth Large Equity;Ashoka WhiteOak India Opps F EUR Acc; 1.904.233.252 € ;Euro;0;-0,80;-1,88;8,95;-11,29;-6,23;17,13;-21,26;27,00;10,08;0,00
+India Growth Large Equity;GS India Equity E Acc EUR; 4.352.208.502 € ;Euro;0;-0,31;-1,79;7,54;-12,67;-8,10;16,57;-21,92;27,41;9,85;16,61
+India Growth Large Equity;UTI India Dynamic Equity EURO Retail; 840.786.351 € ;Euro;0;-0,97;-1,33;7,23;-9,72;-6,08;17,17;-19,60;16,33;4,37;12,35
+EM Large Blend;Benchmark 1: MSCI EM NR EUR;0;Euro;0;0,41;0,97;14,98;2,10;4,73;16,29;-17,64;14,68;4,86;4,82
+EM Blend Mid;Templeton Em Mkts Smlr Coms A(acc)EUR-H1; 291.222.208 € ;Euro;Fully Hedged;0,54;3,21;21,71;9,52;7,33;12,50;-17,48;5,32;8,19;7,69
+EM Blend Mid;Benchmark 1: MSCI EM Small NR USD;0;US Dollar;0;0,15;4,04;26,65;10,91;6,63;15,26;-21,14;11,79;14,26;12,72
+Luxury Brands;GAM Multistock Luxury Brands Eq EUR E; 342.579.615 € ;Euro;0;2,51;1,58;20,28;-1,32;5,98;19,21;-27,96;9,18;5,43;7,44
+Luxury Brands;Pictet-Premium Brands P EUR; 1.491.093.517 € ;Euro;0;2,92;0,13;15,10;-7,36;3,15;20,53;-25,78;13,24;6,06;10,02
+Global Brands;MS INVF Global Brands A EUR; 17.926.734.456 € ;Euro;0;0,90;-2,93;6,03;-5,67;3,79;15,94;-16,23;15,28;4,70;0,00
+Consumer trends;Robeco Global Consumer Trends D EUR; 3.489.333.576 € ;Euro;0;-0,08;-1,88;14,17;-2,68;0,86;15,58;-20,15;18,36;9,53;4,50
+Consumer trends;Benchmark 1: MSCI World/Consumer Disc NR EUR;0;Euro;0;0,19;-0,68;13,19;-12,30;3,69;22,91;-27,58;29,66;9,66;9,78
+Energy Stocks;CPR Invest Hydrogen A EUR Acc; 476.969.230 € ;Euro;0;0,36;-0,52;18,98;-1,44;6,37;16,88;-21,84;11,98;1,97;0,00
+Energy Stocks;BGF Sustainable Energy A2; 3.413.197.635 € ;Euro;0;5,24;3,32;27,59;1,53;-1,55;22,32;-26,34;-2,91;4,45;8,78
+Energy Stocks;BGF World Energy A2; 1.514.910.454 € ;Euro;0;0,51;0,60;6,38;-7,78;-10,22;23,53;-24,85;8,74;3,66;17,54
+Energy Stocks;Benchmark 1: MSCI World/Energy NR EUR;0;Euro;0;0,92;0,57;5,22;-6,91;-7,76;21,65;-22,12;9,56;5,05;18,79
+Materiales sost.;Robeco Smart Materials Eqs D EUR; 360.496.029 € ;Euro;0;-0,29;2,30;16,22;-9,94;-14,81;20,89;-29,34;-2,20;-1,78;3,77
+Industrials;Fidelity Global Industrials E-Acc-EUR; 736.872.232 € ;Euro;0;1,82;1,26;15,81;-1,15;4,33;17,78;-21,25;15,29;11,71;16,04
+Security;Pictet-Security P EUR; 5.315.270.854 € ;Euro;0;1,14;-0,24;22,14;-2,32;5,33;23,86;-25,79;19,96;6,20;6,84
+Industrials;Benchmark 1: MSCI World/Industrials NR EUR;0;Euro;0;0,13;-0,48;19,86;3,87;13,49;16,31;-18,18;20,69;16,06;15,25
+European REITs;Oddo BHF Immobilier CR-EUR; 207.921.696 € ;Euro;0;-1,51;-0,40;17,70;9,64;7,81;18,51;-20,85;-2,54;3,57;-0,63
+European REITs Dividend;DPAM B Real Est Eur Sus Div B; 208.979.175 € ;Euro;0;-1,47;-0,49;16,74;9,19;3,85;17,24;-20,95;-2,74;1,08;1,82
+Global REITs;Janus Henderson Hrzn GlblPtyEqsA2EUR; 863.691.201 € ;Euro;0;0,90;-2,27;7,56;-7,49;-0,36;17,47;-21,59;6,06;-3,98;1,83
+Global REITs;Benchmark 1: MSCI World/REITS NR USD;0;US Dollar;0;0,07;-0,18;11,38;4,43;9,78;16,12;-17,78;8,95;2,31;5,12
+Infraestructuras;M&G (Lux) Global Listed Infras A EUR Acc; 1.380.358.775 € ;Euro;0;0,36;-2,48;4,53;-2,42;1,01;13,24;-14,35;4,74;-0,87;4,39
+Infraestructuras;FTGF CB Infras Val A EUR Acc; 785.988.322 € ;Euro;0;-0,24;-1,77;7,65;2,47;11,55;12,48;-9,27;10,27;3,43;8,16
+Infraestructuras;Benchmark 1: FTSE Dvlp Core Infra 50/50 NR Hdg EUR;0;Euro;Fully Hedged;-0,39;-0,21;6,99;5,21;14,05;11,00;-7,51;11,35;4,21;6,71
+IA Growth Large;Polar Cptl PLC-Artfcl Intllgnc R Acc; 1.024.263.744 € ;Euro;0;-1,22;3,25;30,99;-0,81;2,62;22,54;-29,59;31,82;17,57;12,05
+IA High Growth Large;Echiquier Artificial Intelligence B EUR; 1.015.847.603 € ;Euro;0;0,86;3,37;32,43;3,22;12,72;29,76;-29,89;36,29;17,55;5,39
+Big Data Blend Mid ;EdRF Big Data R EUR; 2.453.408.725 € ;Euro;0;0,60;-1,31;11,66;-1,72;8,32;13,89;-16,19;18,14;10,47;13,67
+IA Growth Large;Benchmark 1: Morningstar Gbl AI & Big Data Cns GR EUR;0;Euro;0;-0,07;2,33;24,81;-4,13;5,56;27,17;-29,44;45,86;22,68;17,60
+Gold miners;BGF World Gold A2 EUR Hedged;  ;;;;;;;;;;;;
+Commodities ;GSQrtx Mdfd Stgy Blmbrg Cmd TR A EUR; 790.173.632 € ;Euro;Fully Hedged;0,64;-0,36;5,96;5,32;1,86;12,78;-8,73;3,02;-0,84;10,57
+Healthcare Blend Large;AB Intl Health Care A EUR Acc; 2.774.939.656 € ;Euro;0;-0,20;-3,45;-4,98;-13,41;-17,98;15,84;-22,06;3,88;-2,46;4,37
+Biotechnology;Polar Capital Biotech R Inc; 1.501.617.269 € ;Euro;0;0,49;-3,13;8,80;-15,34;-10,80;24,40;-29,87;14,30;1,75;5,79
+Healthcare Blend Large;BGF World Healthscience A2; 10.673.903.522 € ;Euro;0;0,16;-3,03;-2,00;-11,97;-13,92;16,86;-18,97;8,74;-2,43;3,31
+Healthcare Blend Large;Benchmark 1: MSCI World/Health Care NR EUR;0;Euro;0;-0,36;-3,24;-3,10;-11,40;-12,76;14,12;-19,16;7,88;-1,80;4,82
+Financial Services;Fidelity Global Financial Svcs E-Acc-EUR; 1.471.396.847 € ;Euro;0;1,14;-0,36;14,78;2,18;17,95;18,60;-18,99;30,37;15,37;14,63
+Insurance stocks;Polar Capital Global Ins R Acc; 2.898.533.030 € ;Euro;0;-2,12;-5,72;2,91;-5,95;8,44;16,98;-13,30;32,20;10,74;15,51
+Financial Services;Benchmark 1: MSCI World/Financials NR EUR;0;Euro;0;0,39;-0,39;16,65;3,26;22,50;17,54;-18,22;35,13;17,20;18,96
+Large Growth Tech;BNP Paribas Disrpt Tech Cl C; 4.284.551.386 € ;Euro;0;-0,19;0,75;22,80;-6,60;-1,95;27,71;-28,75;27,71;14,91;13,50
+Fintech;Robeco FinTech D EUR; 532.179.800 € ;Euro;0;0,29;1,17;21,89;0,55;27,29;21,90;-25,37;29,62;13,89;5,54
+Large Mid Blend Tech;CT (Lux) Global Tech DE; 746.410.247 € ;Euro;0;0,91;3,23;26,17;-8,18;1,61;30,17;-32,41;33,71;14,35;17,59
+Large Growth Tech;BlueBox Funds Global Technology A € Acc; 1.542.743.469 € ;Euro;0;-0,09;2,95;30,14;1,58;-1,60;29,52;-28,00;22,69;19,67;0,00
+Large Blend Tech;Fidelity Global Technology A-Acc-EUR; 24.553.115.163 € ;Euro;0;1,53;1,18;23,15;-0,63;6,11;20,31;-25,87;24,71;16,71;16,91
+Large Growth Tech;Benchmark 1: MSCI World/Information Tech NR EUR;0;Euro;0;0,48;3,45;29,73;-3,84;2,90;29,43;-29,39;41,72;21,97;18,91
+Large Growth Tech;NB Next Gen Cnnctvity EUR A Acc; 908.647.141 € ;Euro;0;-0,49;4,07;33,26;2,02;7,46;32,06;-31,04;42,55;18,52;10,06
+Megatendedencias;DPAM B Eqs NewGems Sust B Cap; 1.577.982.535 € ;Euro;0;0,46;0,94;19,04;-6,99;-4,14;22,39;-26,64;22,86;9,40;8,45
+Megatendedencias;Pictet-Global Megatrend Sel R EUR; 9.848.786.211 € ;Euro;0;0,96;-0,84;14,34;-7,04;-2,09;19,28;-23,99;13,10;4,17;4,62
+Movilidad;BNY Mellon Mobility Innovation EUR A Acc; 201.501.853 € ;Euro;0;1,51;3,01;23,44;0,39;0,64;19,66;-23,60;9,08;4,37;6,54
+Disrupcion tecnológica;CPR Invest Glbl Dsrpt Opp A EUR Acc; 3.245.541.254 € ;Euro;0;-0,10;-0,50;20,92;-9,03;-1,05;24,72;-29,03;28,90;7,55;4,05
+Envejecimiento;CPR Silver Age P; 1.204.575.803 € ;Euro;0;0,26;-3,16;12,66;1,94;4,44;14,83;-17,51;8,42;6,48;4,96
+Alimentos;DPAM B Eqs Sust Food Trends B Cap; 29.854.899 € ;Euro;0;0,50;-2,93;7,37;-7,19;-0,87;12,04;-18,09;5,83;-4,74;2,11
+Demografía;FF - Global Demographics E-Acc-EUR H; 761.085.101 € ;Euro;Fully Hedged;0,74;2,08;20,50;0,54;-2,15;17,31;-21,42;7,62;6,93;4,84
+Absolute return Europeo;Carmignac Pf L-S Eurp Eqs A EUR Acc; 555.184.867 € ;Euro;0;-1,14;0,53;3,91;5,08;3,15;6,81;-5,22;17,41;5,30;5,69
+Absolute return Europeo;Eleva Abs Ret Eurp A1 EUR acc; 4.352.810.669 € ;Euro;0;-0,09;-0,44;4,75;0,87;2,79;4,86;-5,72;7,63;5,11;3,95
+Absolute return sesgo UK;Janus HndrsnAbsolute Return A2 HEUR; 1.630.718.544 € ;Euro;Fully Hedged;-0,18;0,15;2,42;2,81;5,33;2,64;-1,41;5,83;5,25;2,95
+Long short Global;Pictet TR - Atlas P EUR; 2.247.106.543 € ;Euro;0;-0,22;0,72;3,75;2,88;4,82;2,81;-2,83;8,51;4,65;4,21
+Long short Chino;Pictet TR - Mandarin HP EUR; 491.124.647 € ;Euro;Fully Hedged;-0,65;0,08;5,10;5,71;6,47;11,89;-9,95;9,43;3,73;1,40
+Long short Europeo;Carmignac Pf L-S Eurp Eqs A EUR Acc; 555.184.867 € ;Euro;0;-1,14;0,53;3,91;5,08;3,15;6,81;-5,22;17,41;5,30;5,69
+Real estate;CT Real Estate Eq Mkt Netrl A Acc EUR; 269.766.157 € ;Euro;0;0,00;-0,30;-0,08;-0,15;0,61;2,69;-2,36;3,26;1,90;1,81
+US absolute return;BSF Systematic US Eq Abs Ret A2 EUR H; 1.217.510.665 € ;Euro;Fully Hedged;-0,56;-0,82;1,23;2,86;2,15;5,59;-4,77;6,27;6,66;3,53
+Europe absolute return;BSF European Absolute Return A2 EUR; 707.975.748 € ;Euro;0;-0,80;-1,17;1,40;-2,64;-2,07;8,00;-6,69;6,62;2,15;2,39
+M&A deals en proceso;GAMCO Intl SICAV Merger Arbtrg A (EUR); 390.617.314 € ;Euro;Fully Hedged;0,29;1,75;7,92;6,66;9,77;5,48;-4,05;0,97;4,06;4,55
