@@ -1,6 +1,21 @@
 import streamlit as st
 import pandas as pd
 
+# Función simple para pedir contraseña
+def pedir_password():
+    st.sidebar.title("Acceso restringido")
+    password = st.sidebar.text_input("Introduce la contraseña:", type="password")
+    return password
+
+# Define aquí tu contraseña segura
+PASSWORD = "andbank123"  # cambia esto por la contraseña que quieras
+
+password_introducida = pedir_password()
+
+if password_introducida != PASSWORD:
+    st.error("🔒 Contraseña incorrecta. Acceso denegado.")
+    st.stop()  # detiene la ejecución si la contraseña es errónea
+
 st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
 st.title("Focus List - Fund Selection")
 
