@@ -25,10 +25,8 @@ def cargar_datos():
 
 df = cargar_datos()
 
-# ---------------------
-# FILTRO POR CATEGORÍA
-# ---------------------
-categorias = ["Todas"] + sorted(df["Categoría"].dropna().unique().tolist())
+# Filtrar por categoría
+categorias = ["Todas"] + sorted(df["Categoría"].dropna().unique())
 categoria_seleccionada = st.selectbox("Filtrar por categoría:", categorias)
 
 if categoria_seleccionada != "Todas":
@@ -36,60 +34,36 @@ if categoria_seleccionada != "Todas":
 else:
     df_filtrado = df.copy()
 
-# ---------------------
-# FORMATEO DE COLUMNAS
-# ---------------------
-columnas_formatear = [
+# Convertir columnas numéricas para asegurar orden correcto
+columnas_numericas = [
     "Rentabilidad semanal", "Rentabilidad mensual", "Rentabilidad 3 meses",
     "Rentabilidad YTD", "Rentabilidad 1 año", "Volatilidad 1 año",
-    "Máxima caída 1 año", "Rentabilidad 2024", "Rentabilidad 3 años", "Rentabilidad 5 años"
+    "Máxima caída 1 año", "Rentabilidad 2024", "Rentabilidad 3 años", "Rentabilidad 5 años",
+    "Fund Size"
 ]
 
-def formatear_valor(x):
-    if pd.isna(x) or x == 0:
-        return ""
-    else:
-        return f"{x:.2f}"
+for col in columnas_numericas:
+    if col in df_filtrado.columns:
+        df_filtrado[col] = pd.to_numeric(df_filtrado[col], errors='coerce')
 
-def formatear_fund_size(row):
-    valor = row.get("Fund Size")
-    divisa = row.get("Base Currency")
+# Orden fijo por Rentabilidad YTD descendente
+if "Rentabilidad YTD" in df_filtrado.columns:
+    df_filtrado = df_filtrado.sort_values("Rentabilidad YTD", ascending=False, na_position='last')
 
+# Formatear Fund Size como string para mostrar con separadores y símbolo
+def format_fund_size(valor, divisa):
     if pd.isna(valor) or valor == 0:
         return ""
+    simbolo = "€" if divisa == "Euro" else "$" if divisa == "US Dollar" else ""
+    return f"{valor:,.0f}".replace(",", ".") + f" {simbolo}"
 
-    try:
-        valor_str = f"{int(valor):,}".replace(",", ".")
-        simbolo = "€" if divisa == "Euro" else "$" if divisa == "US Dollar" else ""
-        return f"{valor_str} {simbolo}"
-    except:
-        return ""
+df_filtrado["Fund Size"] = df_filtrado.apply(
+    lambda row: format_fund_size(row["Fund Size"], row["Base Currency"]) if ("Fund Size" in df_filtrado.columns and "Base Currency" in df_filtrado.columns) else "", axis=1
+)
 
-def formatear_currency_hedged(x):
-    return "" if pd.isna(x) or x == 0 else str(x)
-
-# Aplicar formatos
-for col in columnas_formatear:
-    if col in df_filtrado.columns:
-        df_filtrado[col] = df_filtrado[col].apply(formatear_valor)
-
-df_filtrado["Fund Size"] = df_filtrado.apply(formatear_fund_size, axis=1)
-df_filtrado["Currency Hedged"] = df_filtrado["Currency Hedged"].apply(formatear_currency_hedged)
-
-# ---------------------
-# ORDEN FIJO
-# ---------------------
-if "Rentabilidad YTD" in df_filtrado.columns:
-    df_filtrado = df_filtrado.sort_values("Rentabilidad YTD", ascending=False)
-
-# ---------------------
-# MOSTRAR TABLA
-# ---------------------
+# Mostrar tabla directamente sin formato visual en columnas numéricas
 st.dataframe(df_filtrado, use_container_width=True)
 
-# ---------------------
-# PIE DE PÁGINA
-# ---------------------
 st.markdown(
     """
     <p style='text-align: right; font-style: italic; font-size: 0.9em; color: gray; margin-top: 10px;'>
