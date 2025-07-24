@@ -10,36 +10,32 @@ def cargar_datos():
 
 df = cargar_datos()
 
+# ---------------------
+# FILTRO POR CATEGORÍA
+# ---------------------
 categorias = ["Todas"] + sorted(df["Categoría"].dropna().unique().tolist())
 categoria_seleccionada = st.selectbox("Filtrar por categoría:", categorias)
 
 if categoria_seleccionada != "Todas":
-    df_filtrado = df[df["Categoría"] == categoria_seleccionada]
+    df_filtrado = df[df["Categoría"] == categoria_seleccionada].copy()
 else:
-    df_filtrado = df
+    df_filtrado = df.copy()
 
-# Lista de columnas numéricas que quieres formatear
-columnas_a_formatear = [
-    "Rentabilidad semanal",
-    "Rentabilidad mensual",
-    "Rentabilidad 3 meses",
-    "Rentabilidad YTD",
-    "Rentabilidad 1 año",
-    "Volatilidad 1 año",
-    "Máxima caída 1 año",
-    "Rentabilidad 2024",
-    "Rentabilidad 3 años",
-    "Rentabilidad 5 años"
-]  # ajusta según tus columnas
+# ---------------------
+# FORMATEO DE COLUMNAS
+# ---------------------
+columnas_formatear = [
+    "Rentabilidad semanal", "Rentabilidad mensual", "Rentabilidad 3 meses",
+    "Rentabilidad YTD", "Rentabilidad 1 año", "Volatilidad 1 año",
+    "Máxima caída 1 año", "Rentabilidad 2024", "Rentabilidad 3 años", "Rentabilidad 5 años"
+]
 
-# Función para formatear valores: 2 decimales, vacío si 0 o NaN
 def formatear_valor(x):
     if pd.isna(x) or x == 0:
         return ""
     else:
         return f"{x:.2f}"
 
-# Formateo de 'Fund Size' según 'Base Currency'
 def formatear_fund_size(row):
     valor = row.get("Fund Size")
     divisa = row.get("Base Currency")
@@ -54,50 +50,48 @@ def formatear_fund_size(row):
     except:
         return ""
 
-# Formatear 'Currency Hedged': ocultar si es 0
 def formatear_currency_hedged(x):
     return "" if pd.isna(x) or x == 0 else str(x)
 
-# Aplicar formateos directos a columnas no numéricas
+# Aplicar formatos
+for col in columnas_formatear:
+    if col in df_filtrado.columns:
+        df_filtrado[col] = df_filtrado[col].apply(formatear_valor)
+
 df_filtrado["Fund Size"] = df_filtrado.apply(formatear_fund_size, axis=1)
 df_filtrado["Currency Hedged"] = df_filtrado["Currency Hedged"].apply(formatear_currency_hedged)
 
-# Crear diccionario de formato solo para columnas numéricas
-format_dict = {col: formatear_valor for col in columnas_a_formatear if col in df_filtrado.columns}
-
-# -----------------------
-# ESTILOS DE LA TABLA
-# -----------------------
-
-# Zebra alterna
-def color_filas_alternas(x):
-    return ['background-color: #f9f9f9' if i % 2 == 0 else 'background-color: white' for i in range(len(x))]
-
-# Estilo del encabezado
-header_styles = {
-    'selector': 'th',
-    'props': [
-        ('background-color', '#003366'),
-        ('color', 'white'),
-        ('font-weight', 'bold'),
-        ('text-align', 'center')
-    ]
-}
-
-# Aplicar estilo
-styled_df = (
-    df_filtrado.style
-    .apply(color_filas_alternas, axis=1)
-    .format(format_dict)
-    .set_properties(**{'text-align': 'left'})
-    .set_table_styles([header_styles])
+# ---------------------
+# ORDENACIÓN DINÁMICA
+# ---------------------
+st.markdown("### 🔽 Ordenar tabla")
+columna_orden = st.selectbox(
+    "Seleccionar columna para ordenar:",
+    options=["Rentabilidad YTD", "Rentabilidad 1 año", "Fund Size"]
 )
 
-st.dataframe(styled_df, use_container_width=True)
+orden_descendente = st.checkbox("Orden descendente", value=True)
 
-# -----------------------
-# FUENTE Y FECHA
-# -----------------------
+# Convertir Fund Size a número para ordenación (crear columna oculta)
+df_ordenar = df.copy()
+df_ordenar["__Fund Size Num"] = pd.to_numeric(df_ordenar["Fund Size"], errors="coerce")
+
+# Seleccionar columna real para ordenar
+if columna_orden == "Fund Size":
+    df_filtrado["__Fund Size Num"] = df_ordenar["__Fund Size Num"]
+    df_filtrado = df_filtrado.sort_values("__Fund Size Num", ascending=not orden_descendente)
+    df_filtrado = df_filtrado.drop(columns=["__Fund Size Num"])
+else:
+    df_filtrado = df_filtrado.sort_values(columna_orden, ascending=not orden_descendente)
+
+# ---------------------
+# MOSTRAR TABLA
+# ---------------------
+st.dataframe(df_filtrado, use_container_width=True)
+
+# ---------------------
+# PIE DE PÁGINA
+# ---------------------
 st.markdown(
     """
     <p style='text-align: right; font-style: italic; font-size: 0.9em; color: gray; margin-top: 10px;'>
