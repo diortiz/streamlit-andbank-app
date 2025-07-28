@@ -3,6 +3,17 @@ import pandas as pd
 
 st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
 
+st.markdown(
+    """
+    <style>
+    html, body, [class*="css"] {
+        font-family: Verdana, sans-serif;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # --- Contraseña segura ---
 PASSWORD = "andbank2025"
 
@@ -86,7 +97,7 @@ titulo_categoria = "Todos los fondos" if categoria_seleccionada == "Todas" else 
 st.subheader(titulo_categoria)
 
 # Mostrar número de resultados
-st.caption(f"Número de fondos mostrados: {len(df_filtrado)}")
+st.caption(f"Fondos: {len(df_filtrado)}")
 
 # Mostrar tabla
 st.dataframe(df_filtrado, use_container_width=True)
