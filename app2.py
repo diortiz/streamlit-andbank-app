@@ -3,16 +3,6 @@ import pandas as pd
 
 st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
 
-st.markdown(
-    """
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h1 style="margin: 0;">Focus List - Fund Selection </h1>
-        <img src="Andbankw.png" alt="Andbank Logo" style="height: 60px;">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 # --- Contraseña segura ---
 PASSWORD = "andbank2025"
 
@@ -62,6 +52,9 @@ st.sidebar.title("Categorías")
 categorias = ["Todas"] + sorted(df["Categoría"].dropna().unique())
 categoria_seleccionada = st.sidebar.selectbox("Selecciona una categoría:", (categorias))
 
+
+
+
 # Filtrado
 if categoria_seleccionada != "Todas":
     df_filtrado = df[df["Categoría"] == categoria_seleccionada].copy()
@@ -88,6 +81,9 @@ if "Currency Hedged" in df_filtrado.columns:
     df_filtrado["Currency Hedged"] = df_filtrado["Currency Hedged"].apply(
         lambda x: "" if pd.isna(x) or x == 0 else str(x)
     )
+
+titulo_categoria = "Todos los fondos" if categoria_seleccionada == "Todas" else f"Fondos de categoría: {categoria_seleccionada}"
+st.subheader(titulo_categoria)
 
 # Mostrar tabla
 st.dataframe(df_filtrado, use_container_width=True)
