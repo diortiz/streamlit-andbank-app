@@ -36,7 +36,7 @@ st.title("Focus List - Fund Selection")
 
 @st.cache_data
 def cargar_datos():
-    return pd.read_excel("prueba.xlsx")
+    return pd.read_excel("prueba.xlsx", index_col=0)
 
 df = cargar_datos()
 
