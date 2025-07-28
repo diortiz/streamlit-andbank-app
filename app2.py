@@ -39,7 +39,7 @@ def cargar_datos():
     return pd.read_excel("prueba.xlsx")
 
 df = cargar_datos()
-df = df.iloc[:, 1:]  # Eliminar la primera columna por posición
+
 
 # Convertir columnas numéricas
 columnas_numericas = [
