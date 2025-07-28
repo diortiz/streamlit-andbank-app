@@ -1,8 +1,17 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Fondos de Inversión", layout="wide")
-st.title("📈 Fondos de Inversión")
+st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
+st.title("Focus List - Fund Selection")
+
+# --- Contraseña ---
+PASSWORD = "andbank2025"
+st.title("🔒 Acceso restringido")
+password = st.text_input("Introduce la contraseña:", type="password")
+
+if password != PASSWORD:
+    st.warning("Introduce la contraseña para acceder.")
+    st.stop()
 
 @st.cache_data
 def cargar_datos():
@@ -24,8 +33,9 @@ for col in columnas_numericas:
 
 # Sidebar: selector de categoría
 st.sidebar.title("Categorías")
+st.sidebar.image("Andbankw.png", use_container_width = True)
 categorias = ["Todas"] + sorted(df["Categoría"].dropna().unique())
-categoria_seleccionada = st.sidebar.radio("Selecciona una categoría:", categorias)
+categoria_seleccionada = st.sidebar.radio("Selecciona una categoría:", (categorias))
 
 # Filtrado
 if categoria_seleccionada != "Todas":
