@@ -85,6 +85,9 @@ if "Currency Hedged" in df_filtrado.columns:
 titulo_categoria = "Todos los fondos" if categoria_seleccionada == "Todas" else f"Fondos de categoría: {categoria_seleccionada}"
 st.subheader(titulo_categoria)
 
+# Mostrar número de resultados
+st.caption(f"Número de fondos mostrados: {len(df_filtrado)}")
+
 # Mostrar tabla
 st.dataframe(df_filtrado, use_container_width=True)
 
