@@ -3,6 +3,16 @@ import pandas as pd
 
 st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
 
+st.markdown(
+    """
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 style="margin: 0;">Focus List - Fund Selection </h1>
+        <img src="Andbankw.png" alt="Andbank Logo" style="height: 60px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 # --- Contraseña segura ---
 PASSWORD = "andbank2025"
 
@@ -46,10 +56,11 @@ for col in columnas_numericas:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
 # Sidebar: selector de categoría
-st.sidebar.title("Categorías")
+
 st.sidebar.image("Andbankw.png", use_container_width = True)
+st.sidebar.title("Categorías")
 categorias = ["Todas"] + sorted(df["Categoría"].dropna().unique())
-categoria_seleccionada = st.sidebar.radio("Selecciona una categoría:", (categorias))
+categoria_seleccionada = st.sidebar.selectbox("Selecciona una categoría:", (categorias))
 
 # Filtrado
 if categoria_seleccionada != "Todas":
