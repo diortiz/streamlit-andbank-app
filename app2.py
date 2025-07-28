@@ -36,9 +36,10 @@ st.title("Focus List - Fund Selection")
 
 @st.cache_data
 def cargar_datos():
-    return pd.read_excel("prueba.xlsx", index_col=0)
+    return pd.read_excel("prueba.xlsx")
 
 df = cargar_datos()
+df = df.iloc[:, 1:]  # Eliminar la primera columna por posición
 
 # Convertir columnas numéricas
 columnas_numericas = [
