@@ -6,7 +6,7 @@ st.title("📈 Fondos de Inversión")
 
 @st.cache_data
 def cargar_datos():
-    return pd.read_csv("fondos.csv")
+    return pd.read_excel("prueba.xlsx")
 
 df = cargar_datos()
 
