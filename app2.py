@@ -8,7 +8,7 @@ col1, col2 = st.columns([5, 1])
 with col1:
     st.markdown("Focus List")
 with col2:
-    st.image("Andbankw.png", width=100)
+    st.image("Andbankw.png", width=500)
 
 # --- Contraseña segura ---
 PASSWORD = "andbank2025"
