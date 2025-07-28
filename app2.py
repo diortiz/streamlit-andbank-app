@@ -6,9 +6,9 @@ st.set_page_config(page_title="Fund Selection", layout="wide")
 # Encabezado visual: Título + Logo
 col1, col2 = st.columns([5, 1])
 with col1:
-    st.markdown("Focus List")
+    st.markdown("")
 with col2:
-    st.image("Andbankw.png", width=500)
+    st.image("Andbankw.png", width=600)
 
 # --- Contraseña segura ---
 PASSWORD = "andbank2025"
