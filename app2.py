@@ -2,16 +2,30 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
+
+# --- Contraseña segura ---
+PASSWORD = "andbank2025"
+
+# --- Comprobación de contraseña usando sesión ---
+if "autenticado" not in st.session_state:
+    st.session_state.autenticado = False
+
+if not st.session_state.autenticado:
+    with st.form("login_form", clear_on_submit=True):
+        st.title("🔒 Acceso restringido")
+        password = st.text_input("Introduce la contraseña:", type="password")
+        login_button = st.form_submit_button("Entrar")
+
+        if login_button:
+            if password == PASSWORD:
+                st.session_state.autenticado = True
+                st.rerun()
+            else:
+                st.error("❌ Contraseña incorrecta")
+    st.stop()
+
 st.title("Focus List - Fund Selection")
 
-# --- Contraseña ---
-PASSWORD = "andbank2025"
-st.title("🔒 Acceso restringido")
-password = st.text_input("Introduce la contraseña:", type="password")
-
-if password != PASSWORD:
-    st.warning("Introduce la contraseña para acceder.")
-    st.stop()
 
 @st.cache_data
 def cargar_datos():
