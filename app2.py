@@ -5,11 +5,11 @@ st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
 
 st.markdown(
     """
-    <style>
-    html, body, [class*="css"] {
-        font-family: Verdana, sans-serif;
-    }
-    </style>
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <h1 style="margin: 0;">📈 Fondos de Inversión</h1>
+        <img src="Andbankw.png" alt="Andbank logo" style="height: 60px;">
+    </div>
+    <hr>
     """,
     unsafe_allow_html=True
 )
