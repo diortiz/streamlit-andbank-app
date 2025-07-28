@@ -1,18 +1,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Focus List - Fund Selection", layout="wide")
+st.set_page_config(page_title="Fund Selection", layout="wide")
 
-st.markdown(
-    """
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-        <h1 style="margin: 0;">📈 Fondos de Inversión</h1>
-        <img src="Andbankw.png" alt="Andbank logo" style="height: 60px;">
-    </div>
-    <hr>
-    """,
-    unsafe_allow_html=True
-)
+# Encabezado visual: Título + Logo
+col1, col2 = st.columns([5, 1])
+with col1:
+    st.markdown("Focus List")
+with col2:
+    st.image("Andbankw.png", width=100)
 
 # --- Contraseña segura ---
 PASSWORD = "andbank2025"
